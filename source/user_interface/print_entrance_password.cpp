@@ -35,15 +35,25 @@ constexpr auto print_error =
 	return get_entrance_password_result::unexpected_type{ error };
 };
 
-} // anonymous namespace
-
+template <entrance_method... methods>
 void print_entrance_password(const arguments_t arguments)
 {
 	if (std::ranges::empty(arguments)) { print_help(); return; }
 
-	get_entrance_password(file_to_string(*std::ranges::begin(arguments)))
+	((get_entrance_password<methods>(
+			file_to_string(*std::ranges::begin(arguments)))
 		.and_then(print_result)
-		.or_else(print_error);
+		.or_else(print_error))
+	, ...);
+}
+
+} // anonymous namespace
+
+void print_entrance_password(const arguments_t arguments)
+{
+	using enum entrance_method;
+
+	print_entrance_password<zero_counted, zero_visited>(arguments);
 }
 
 } // namespace tprt::aoc_2025

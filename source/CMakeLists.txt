@@ -11,6 +11,7 @@ target_compile_options(tprt-aoc-2025 PRIVATE
 
 target_sources(tprt-aoc-2025 PRIVATE FILE_SET HEADERS FILES
 	arguments_t.hpp
+	counted_entrance_safe.hpp
 	day_t.hpp
 	entrance_password.hpp
 	entrance_safe.hpp
@@ -18,6 +19,7 @@ target_sources(tprt-aoc-2025 PRIVATE FILE_SET HEADERS FILES
 	get_entrance_password.hpp
 	get_entrance_password.ipp
 	zero_counted_entrance_safe.hpp
+	zero_visited_entrance_safe.hpp
 	detail/entrance_safe_detail.hpp
 	detail/to_contiguous_range_detail.hpp
 	user_interface/print_entrance_password.hpp

@@ -10,9 +10,12 @@
 namespace tprt::aoc_2025
 {
 
+enum class entrance_method : bool { zero_counted, zero_visited };
+
 using get_entrance_password_result = std::expected<
 	entrance_password, entrance_safe_rotation::parse_exception>;
 
+template <entrance_method>
 [[nodiscard]] constexpr auto
 get_entrance_password(input_range_of_bytes auto &&attached_document) noexcept
 -> get_entrance_password_result;
