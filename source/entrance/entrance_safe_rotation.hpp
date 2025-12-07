@@ -1,5 +1,5 @@
-#ifndef TPRT_AOC_2025_ENTRANCE_SAFE_ROTATION_HPP
-#define TPRT_AOC_2025_ENTRANCE_SAFE_ROTATION_HPP
+#ifndef TPRT_AOC_2025_ENTRANCE_ENTRANCE_SAFE_ROTATION_HPP
+#define TPRT_AOC_2025_ENTRANCE_ENTRANCE_SAFE_ROTATION_HPP
 
 #include "utils/byte_like.hpp"
 #include "utils/from_chars.hpp"
@@ -93,4 +93,4 @@ inline constexpr auto to_entrance_safe_rotation =
 
 } // namespace tprt::aoc_2025
 
-#endif // ifndef TPRT_AOC_2025_ENTRANCE_SAFE_ROTATION_HPP
+#endif // ifndef TPRT_AOC_2025_ENTRANCE_ENTRANCE_SAFE_ROTATION_HPP

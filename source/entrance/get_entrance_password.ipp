@@ -1,8 +1,8 @@
-#ifndef TPRT_AOC_2025_ENTRANCE_PASSWORD_IPP
-#define TPRT_AOC_2025_ENTRANCE_PASSWORD_IPP
+#ifndef TPRT_AOC_2025_ENTRANCE_GET_ENTRANCE_PASSWORD_IPP
+#define TPRT_AOC_2025_ENTRANCE_GET_ENTRANCE_PASSWORD_IPP
 
-#include "zero_counted_entrance_safe.hpp"
-#include "zero_visited_entrance_safe.hpp"
+#include "entrance/zero_counted_entrance_safe.hpp"
+#include "entrance/zero_visited_entrance_safe.hpp"
 #include "utils/to_char.hpp"
 
 #include <algorithm>
@@ -70,4 +70,4 @@ get_entrance_password(input_range_of_bytes auto &&attached_document) noexcept
 
 } // namespace tprt::aoc_2025
 
-#endif // ifndef TPRT_AOC_2025_ENTRANCE_PASSWORD_IPP
+#endif // ifndef TPRT_AOC_2025_ENTRANCE_GET_ENTRANCE_PASSWORD_IPP

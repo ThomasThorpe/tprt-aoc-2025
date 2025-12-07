@@ -11,18 +11,18 @@ target_compile_options(tprt-aoc-2025 PRIVATE
 
 target_sources(tprt-aoc-2025 PRIVATE FILE_SET HEADERS FILES
 	arguments_t.hpp
-	counted_entrance_safe.hpp
 	day_t.hpp
-	entrance_password.hpp
-	entrance_safe.hpp
-	entrance_safe_rotation.hpp
-	get_entrance_password.hpp
-	get_entrance_password.ipp
-	zero_counted_entrance_safe.hpp
-	zero_visited_entrance_safe.hpp
 	detail/entrance_safe_detail.hpp
 	detail/to_contiguous_range_detail.hpp
 	user_interface/print_entrance_password.hpp
+	entrance/counted_entrance_safe.hpp
+	entrance/entrance_password.hpp
+	entrance/entrance_safe.hpp
+	entrance/entrance_safe_rotation.hpp
+	entrance/get_entrance_password.hpp
+	entrance/get_entrance_password.ipp
+	entrance/zero_counted_entrance_safe.hpp
+	entrance/zero_visited_entrance_safe.hpp
 	user_interface/print_solution.hpp
 	utils/byte_like.hpp
 	utils/contiguous_range_of_either.hpp

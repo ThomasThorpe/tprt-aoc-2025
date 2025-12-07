@@ -1,8 +1,8 @@
-#ifndef TPRT_AOC_2025_GET_ENTRANCE_PASSWORD_HPP
-#define TPRT_AOC_2025_GET_ENTRANCE_PASSWORD_HPP
+#ifndef TPRT_AOC_2025_ENTRANCE_GET_ENTRANCE_PASSWORD_HPP
+#define TPRT_AOC_2025_ENTRANCE_GET_ENTRANCE_PASSWORD_HPP
 
-#include "entrance_password.hpp"
-#include "entrance_safe_rotation.hpp"
+#include "entrance/entrance_password.hpp"
+#include "entrance/entrance_safe_rotation.hpp"
 #include "utils/input_range_of_bytes.hpp"
 
 #include <expected>
@@ -24,4 +24,4 @@ get_entrance_password(input_range_of_bytes auto &&attached_document) noexcept
 
 #include "get_entrance_password.ipp"
 
-#endif // ifndef TPRT_AOC_2025_GET_ENTRANCE_PASSWORD_HPP
+#endif // ifndef TPRT_AOC_2025_ENTRANCE_GET_ENTRANCE_PASSWORD_HPP

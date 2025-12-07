@@ -1,7 +1,7 @@
 #ifndef TPRT_AOC_2025_DETAIL_ENTRANCE_SAFE_DETAIL_HPP
 #define TPRT_AOC_2025_DETAIL_ENTRANCE_SAFE_DETAIL_HPP
 
-#include "entrance_safe_rotation.hpp"
+#include "entrance/entrance_safe_rotation.hpp"
 
 #include <algorithm>
 #include <cstddef>

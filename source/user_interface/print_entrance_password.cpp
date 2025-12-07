@@ -1,6 +1,6 @@
 #include "user_interface/print_entrance_password.hpp"
 
-#include "get_entrance_password.hpp"
+#include "entrance/get_entrance_password.hpp"
 #include "utils/file_to_string.hpp"
 
 #include <iostream>

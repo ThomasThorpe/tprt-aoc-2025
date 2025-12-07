@@ -1,7 +1,7 @@
-#ifndef TPRT_AOC_2025_ZERO_COUNTED_ENTRANCE_SAFE_HPP
-#define TPRT_AOC_2025_ZERO_COUNTED_ENTRANCE_SAFE_HPP
+#ifndef TPRT_AOC_2025_ENTRANCE_ZERO_COUNTED_ENTRANCE_SAFE_HPP
+#define TPRT_AOC_2025_ENTRANCE_ZERO_COUNTED_ENTRANCE_SAFE_HPP
 
-#include "counted_entrance_safe.hpp"
+#include "entrance/counted_entrance_safe.hpp"
 
 namespace tprt::aoc_2025
 {
@@ -21,4 +21,4 @@ private:
 
 } // namespace tprt::aoc_2025
 
-#endif // ifndef TPRT_AOC_2025_ZERO_COUNTED_ENTRANCE_SAFE_HPP
+#endif // ifndef TPRT_AOC_2025_ENTRANCE_ZERO_COUNTED_ENTRANCE_SAFE_HPP
